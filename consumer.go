@@ -15,7 +15,7 @@ import (
 	"github.com/davron112/lura/v2/proxy"
 )
 
-const consumerNamespace = "github.com/devopsfaith/krakend-amqp/consume"
+const consumerNamespace = "github.com/davron112/krakend-amqp/consume"
 
 var (
 	errNoConsumerCfgDefined = errors.New("no amqp consumer defined")
