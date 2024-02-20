@@ -34,7 +34,7 @@ type Subscriber struct {
 	MaxRate     float64
 }
 
-const consumerNamespace = "github.com/devopsfaith/krakend-amqp/agent"
+const consumerNamespace = "github.com/davron112/krakend-amqp/agent"
 
 type Options struct {
 	Logger     logging.Logger
