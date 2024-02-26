@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/davron112/lura/v2/config"
-	"github.com/davron112/lura/v2/encoding"
-	"github.com/davron112/lura/v2/logging"
-	"github.com/davron112/lura/v2/proxy"
+	"github.com/luraproject/lura/v2/config"
+	"github.com/luraproject/lura/v2/encoding"
+	"github.com/luraproject/lura/v2/logging"
+	"github.com/luraproject/lura/v2/proxy"
 	"github.com/streadway/amqp"
 )
 

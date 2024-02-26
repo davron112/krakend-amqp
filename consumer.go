@@ -9,10 +9,9 @@ import (
 	"io"
 	"math"
 
+	"github.com/luraproject/lura/v2/config"
+	"github.com/luraproject/lura/v2/proxy"
 	"github.com/streadway/amqp"
-
-	"github.com/davron112/lura/v2/config"
-	"github.com/davron112/lura/v2/proxy"
 )
 
 const consumerNamespace = "github.com/davron112/krakend-amqp/consume"
